@@ -1,0 +1,202 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.section1 {
+  height: 800px;
+  background-image: url(../assets/hero-bg.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.top-image {
+  margin: auto;
+  display: flex;
+  padding-top: 69px;
+  margin-bottom: 69px;
+}
+.top-image img {
+  margin: auto;
+}
+.learning {
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.learning h2 {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  font-weight: 800;
+  color: #514949;
+  margin-bottom: 36px;
+  font-family: "Azeret Mono";
+  font-style: normal;
+  font-size: 38px;
+}
+.learning p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+a {
+  color: #e7332b;
+  text-decoration: none;
+}
+.btn-div {
+  margin-top: 92px;
+}
+.my-btn {
+  padding: 11px 28px;
+  border: 1px solid #e7332b;
+}
+.btn-red {
+  background-color: #e7332b;
+  color: #fff;
+  margin-right: 24px;
+}
+.btn-red:hover {
+  background-color: #fff;
+  color: #e7332b;
+}
+.btn-red-outline {
+  background-color: #fff;
+  color: #e7332b;
+}
+
+section.programs {
+  background-color: #fff;
+  overflow: hidden;
+}
+.text-center {
+  text-align: center !important;
+}
+.program-content {
+  padding-top: 0 !important;
+}
+.program-content .heading {
+  font-size: 14px;
+  line-height: 24px;
+  color: #e7332b;
+  margin-top: 141px;
+}
+.program-content p.slogan {
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #514949;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+.program-card-zed {
+  position: relative;
+  z-index: 1;
+}
+.program-card {
+  width: 100%;
+  background-color: #fffafa;
+  height: 451.51px;
+  padding: 51px 47px 82px 26px;
+}
+.program-card img {
+  margin-bottom: 48px;
+}
+img.card-bg-svg-1 {
+  width: 100%;
+  position: absolute;
+  left: -120px;
+  top: -75px;
+  z-index: -1;
+}
+img.card-bg-svg-2 {
+  width: 90%;
+  position: absolute;
+  right: -120px;
+  top: -75px;
+  z-index: -1;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.program-card p {
+  font-size: 16px;
+  line-height: 24px;
+  width: 302px;
+  height: 162px;
+  color: #514949;
+  opacity: 0.9;
+}
+.program-card h3 a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #e7332b;
+  opacity: 0.9;
+}
+.footer {
+  margin-top: 215px;
+}
+.my-container {
+  max-width: 1240px !important;
+}
+.mx-auto {
+  margin-right: auto !important;
+}
+.footer-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+  padding: 20px;
+}
+.footer h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: initial;
+  color: #514949;
+}
+.address p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: initial;
+  color: #514949;
+  opacity: 0.9;
+}
+.contact-icons img {
+  width: 18px !important;
+  margin-right: 5px;
+}
+.copyright p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bolder;
+  margin-top: 32px;
+  color: #000;
+  padding-bottom: 97px;
+}
